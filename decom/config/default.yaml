@@ -1,0 +1,35 @@
+coordinator:
+  host: "0.0.0.0"
+  port: 8000
+  database_url: "postgresql://user:pass@localhost/decom"
+  jwt_secret: "CHANGE_ME"
+  
+ipfs:
+  gateway: "http://localhost:5001"
+  pinning_service: "pinata"
+  pinata_api_key: "YOUR_KEY"
+  pinata_secret: "YOUR_SECRET"
+
+worker:
+  max_concurrent_tasks: 3
+  heartbeat_interval: 30
+  execution_timeout: 300
+  resource_limits:
+    max_cpu_percent: 80
+    max_memory_mb: 2048
+    max_disk_mb: 1024
+
+pricing:
+  base_rate_per_cpu_second: 0.001
+  base_rate_per_gb_second: 0.0001
+  redundancy_multiplier: 1.5
+
+verification:
+  required_confirmations: 2
+  challenge_period_hours: 24
+  consensus_threshold: 0.67
+
+security:
+  rate_limit_per_minute: 100
+  max_file_size_mb: 10
+  allowed_file_extensions: [".py"]
