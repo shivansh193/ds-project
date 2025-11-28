@@ -7,16 +7,7 @@ Requires-Dist: typer
 Requires-Dist: fastapi
 Requires-Dist: uvicorn
 Requires-Dist: pydantic
-Requires-Dist: sqlalchemy
-Requires-Dist: alembic
-Requires-Dist: psycopg2-binary
-Requires-Dist: ipfshttpclient
 Requires-Dist: requests
 Requires-Dist: cryptography
-Requires-Dist: pycryptodome
-Requires-Dist: RestrictedPython
-Requires-Dist: docker
-Requires-Dist: prometheus-client
-Requires-Dist: solana
-Requires-Dist: anchorpy
+Requires-Dist: python-dotenv
 Dynamic: requires-dist

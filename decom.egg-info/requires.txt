@@ -4,15 +4,6 @@ typer
 fastapi
 uvicorn
 pydantic
-sqlalchemy
-alembic
-psycopg2-binary
-ipfshttpclient
 requests
 cryptography
-pycryptodome
-RestrictedPython
-docker
-prometheus-client
-solana
-anchorpy
+python-dotenv

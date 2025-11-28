@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Project Specific
+*.enc
+*.temp
+result_*.enc
+test_wallet.json
+
+# OS
+.DS_Store
+Thumbs.db

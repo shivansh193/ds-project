@@ -1,2 +1,2 @@
 [console_scripts]
-decom = decom.cli.main:app
+decom = cli.main:app
